@@ -94,7 +94,7 @@ Whack-a-Mole running on an Elgato Stream Deck, controlled using the physical Str
 
 ![Whack-a-Mole Gameplay](docs/demo/whack-a-mole-hardware-demo.gif)
 
-Whack-a-mole gameplay demonstrated on the physical Stream Deck Hardware.
+Whack-a-Mole gameplay running on physical Elgato Stream Deck hardware.
 
 ## 🚀 Running the Project
 
