@@ -90,6 +90,10 @@ During high-combo fire mode, special moles retain their gameplay identity while 
 
 Whack-a-Mole running on an Elgato Stream Deck, controlled using the physical Stream Deck keys.
 
+### 🎮 Physical Stream Deck Demo
+
+[Watch the game being played on the physical Stream Deck](docs/demo/whack-a-mole-hardware-demo.mp4)
+
 ## 🚀 Running the Project
 
 Clone the repository:
