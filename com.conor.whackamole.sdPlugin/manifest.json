@@ -1,0 +1,113 @@
+{
+	"Name": "Whack A Mole",
+	"Version": "0.1.0.0",
+	"Author": "Conor",
+	"Actions": [
+		{
+			"Name": "Counter",
+			"UUID": "com.conor.whackamole.increment",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Displays a count, which increments by one on press.",
+			"PropertyInspectorPath": "ui/increment-counter.html",
+			"Controllers": [
+				"Keypad",
+				"Encoder"
+			],
+			"States": [
+				{
+					"Image": "imgs/hole",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+        "Name": "Start Game",
+        "UUID": "com.conor.whackamole.start",
+        "Icon": "imgs/actions/counter/icon",
+        "Tooltip": "Start Whack-a-Mole.",
+        "Controllers": [
+            "Keypad"
+        ],
+        "States": [
+            {
+                "Image": "imgs/actions/counter/key",
+                "Title": "START",
+                "TitleAlignment": "middle"
+            }
+        ]
+    },
+	{
+    "Name": "Score",
+    "UUID": "com.conor.whackamole.score",
+    "Icon": "imgs/actions/counter/icon",
+    "Tooltip": "Shows your Whack-a-Mole score.",
+    "Controllers": [
+        "Keypad"
+    ],
+    "States": [
+        {
+            "Image": "imgs/score",
+            "Title": "0",
+            "TitleAlignment": "middle"
+        }
+    ]
+	},
+	{
+    "Name": "Timer",
+    "UUID": "com.conor.whackamole.timer",
+    "Icon": "imgs/actions/counter/icon",
+    "Tooltip": "Whack-a-Mole game timer.",
+    "Controllers": [
+        "Keypad"
+    ],
+    "States": [
+        {
+            "Image": "imgs/actions/counter/key",
+            "Title": "TIME\n30",
+            "TitleAlignment": "middle"
+        }
+    ]
+},
+{
+    "Name": "Best Score",
+    "UUID": "com.conor.whackamole.best",
+    "Icon": "imgs/actions/counter/icon",
+    "Tooltip": "Shows your Whack-a-Mole high score.",
+    "Controllers": [
+        "Keypad"
+    ],
+    "States": [
+        {
+            "Image": "imgs/actions/counter/key",
+            "Title": "BEST\n0",
+            "TitleAlignment": "middle"
+        }
+    ]
+}
+	],
+	
+	"Category": "Whack A Mole",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Whack-A-Mole mini game for Stream Deck",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 3,
+	"Software": {
+		"MinimumVersion": "7.1"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "24",
+		"Debug": "enabled"
+	},
+	"UUID": "com.conor.whackamole"
+}

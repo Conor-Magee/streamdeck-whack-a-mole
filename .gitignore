@@ -1,0 +1,9 @@
+node_modules/
+com.conor.whackamole.sdPlugin/logs/
+*.log
+
+.DS_Store
+Thumbs.db
+
+.env
+.env.*
